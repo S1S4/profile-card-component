@@ -3,7 +3,8 @@
     --veryDarkDesaturatedBlue: hsl(229, 23%, 23%);
     --darkGrayishBlue: hsl(227, 10%, 46%);
     --darkGray: hsl(0, 0%, 59%);
-    --md: 1.20rem;
+    --sm: 1.50rem;
+    --md: 1.70rem;
     --lg: 2.5rem
 }
 * {
@@ -68,15 +69,37 @@ h1 {
     font-weight: 700;
 }
 
-#age {
+.card-information #age {
     font-weight: 400;
     color: var(--darkGrayishBlue);
 }
 
-#country {
+.card-information #country {
     font-weight: 400;
-    color: var(--darkGray);
-    font-size: var(--md);
+    color: var(--darkGrayishBlue);
+    font-size: var(--sm);
+    padding-top: 1.125rem;
+    padding-bottom: 3rem;
 }
 
 /* ------------------------------------------------------------------ */
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3.3125rem;
+    padding-bottom: 3.3125rem;
+    border-top: 1px solid var(--darkGray);
+}
+
+.stats p {
+    text-align: center;
+    color: var(--veryDarkDesaturatedBlue);
+}
+
+.stats span {
+    display: flex;
+    place-content: center;
+    font-weight: 700;
+    font-size: var(--md);
+}
