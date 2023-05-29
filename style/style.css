@@ -32,3 +32,23 @@ body {
 }
 
 /* ------------------------------------------------------------------ */
+
+.banner {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 0.95rem;
+}
+.avatar {
+    display: inline-block;
+    position: absolute;
+    top: 8.3125rem;
+    left: 5.9375rem;
+    width: 8.125rem;
+    height: 8.125rem;
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+/* ------------------------------------------------------------------ */

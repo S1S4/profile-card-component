@@ -17,9 +17,6 @@
 .prettierignore
 
 *.jpg
-*.png
-*.svg
 design
-images
 README-fr.md
 style-guide.md
